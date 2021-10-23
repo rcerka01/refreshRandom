@@ -21,7 +21,7 @@ Test / parallelExecution := false
 unmanagedSourceDirectories in Test := baseDirectory { base =>
   Seq(
     // base / "src/test/scala",
-    base / "src/main/scala/random"
+    // base / "src/main/scala/random"
   )
 }.value
 
